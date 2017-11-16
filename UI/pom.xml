@@ -123,9 +123,8 @@
         <groupId>com.spotify</groupId>
         <artifactId>docker-maven-plugin</artifactId>
         <configuration>
-	  <skipDockerBuild>true</skipDockerBuild>
           <imageName>hygieia-ui</imageName>
-	  <skipDockerBuild>false</skipDockerBuild>
+	  <skipDockerBuild>true</skipDockerBuild>
           <dockerDirectory>${project.basedir}/docker</dockerDirectory>
           <resources>
              <resource>
